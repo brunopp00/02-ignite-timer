@@ -1,11 +1,14 @@
-import { useState } from 'react'
+import {  } from 'react'
+import { Button } from './components/Button'
 
-function App() {
-  const [count, setCount] = useState(0)
+export function App() {
 
   return (
-    <></>
+    <>
+        <Button variant='primary'/>
+        <Button variant='secondary'/>
+        <Button variant='danger'/>
+        <Button variant='success'/>
+    </>
   )
 }
-
-export default App
